@@ -49,13 +49,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  },
+    ],
 
-  // 页脚配置信息
-  footer: {
-    message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
-    copyright: 'Copyright © 2019-present <a href="https://github.com/yyx990803">Evan You</a>'
+    // 页脚配置信息
+    footer: {
+      message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2019-present <a href="https://github.com/yyx990803">Evan You</a>'
+    }
   }
-
 })
